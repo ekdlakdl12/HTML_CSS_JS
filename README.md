@@ -1,1 +1,1 @@
-# intelEn
+# Artificial Intelligence-related folders
