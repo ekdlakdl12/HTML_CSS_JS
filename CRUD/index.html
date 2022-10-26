@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2020315099 최준영 과제</title>
+    
+    <style>
+        /*헤더*/
+        header {
+            margin: auto;
+            width: 60%;
+            border: 3px solid #73AD21;
+            padding: 10px;
+            margin-bottom: 30px;
+            align-content: center;
+          }
+        /*섹션*/
+        section {
+            margin: auto;
+            width: 60%;
+            border: 3px solid #73AD21;
+            padding: 10px;
+            margin-bottom: 30px;
+          }
+        /*사이드*/
+        aside {
+            /*width로 비율 설정*/
+            width: 50%;
+            /*패딩 마진 값*/
+            padding-left: .5rem;
+            margin-left: .5rem;
+            float: right;
+            box-shadow: inset 5px 0 5px -5px #29627e;
+            font-style: italic;
+            color: #29627e;
+        }
+         /*aside 안에 있는 p태그 마진 */
+        aside > p {
+            margin: .5rem;
+        }
+        p {
+            font-family: 'Fira Sans', sans-serif;
+        }
+        .forecast {
+            margin: 10px;
+            padding: .3rem;
+            background-color: #eee;
+            font: 1rem 'Fira Sans', sans-serif;
+        }
+        
+        .forecast > h1,
+        .day-forecast {
+            margin: .5rem;
+            padding: .3rem;
+            font-size: 1.2rem;
+            
+        }
+        
+        .day-forecast {
+            background: right/contain content-box border-box no-repeat
+                url('/media/examples/rain.svg') white;
+        }
+        
+        .day-forecast > h2,
+        .day-forecast > p {
+            margin: .2rem;
+            font-size: 1rem;
+        }
+        
+        .weatherTest{
+            text-align: center;
+        }
+        /*바디*/
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        /*잡태그들*/
+
+        /*나중에는 class나 id값으로 css 입히기*/
+        h1{
+            color: rgb(0, 255, 34);
+        }
+        h3{
+            color: rgb(142, 135, 235);
+        }
+        ul{
+            list-style: none;
+        }
+        img{
+            margin: 10px;
+        }
+        ul{
+            list-style: none;
+            text-align: center;
+            border-top: 1px solid red; border-bottom: 1px solid red; padding: 20px 0;
+        }
+        ul li {
+            display: inline;
+            text-transform: uppercase;
+            padding: 0px 10px; letter-spacing: 10px;
+        }
+
+        ul li a{
+            text-decoration: none; color: black;
+        }
+        ul li a:hover {text-decoration: underline;}
+
+          /*풋터*/
+          footer{
+            margin: 30px 30px 30px 30px;
+          }
+    </style>
+
+</head>
+
+<body>
+    <nav>
+        <ul class="nav">
+            <li><a href="#header">생애</a></li>
+            <li><a href="#section">전공</a></li>
+            <li><a href="#section">자격증</a></li>
+            <li><a href="#footer">저작권</a></li>
+          </ul>
+    </nav>
+
+    <header id="header">
+        <center><h1>2020315099 최준영</h1></center>
+        <center><a>1997년 12월 31일 대한민국 경기도 수원시 권선구에서 태어난 미래의 코딩노예를 소개한다</a></center>
+        <br>
+        <br>
+        <center><img src="C:\Users\준영쨩\Desktop\전공\Web\webpro1\img\31231212.jpg" alt="" width="300px" height="300px"></center>
+    </header>
+    
+    <aside id="aside">
+     
+        <p><b><h4>자격증</h4></b></p>
+        <p><b>취득년도 2014년</b> JLPT N1 </p>
+        <p><b>취득년도 2021년</b> 5월 16일 :JPT 815</p>
+        <p><b>취득년도 2021년</b> 11월28일 Toeic 620</p>
+        <p><b>취득예정 2023년</b> 정보처리기사</p>
+    </aside>
+
+    <section id="section">
+        <center><p><h3>생애</h3></p></center>
+        <p><b>최준영은 1997년 12월31일 연말과 동시에 경기도 수원시 구운동 모 병원에서 함박눈이 내리는날에 태어났다</b></p>
+        <center><p><h3>학력</h3></p></center>
+        <p><b>2005년</b> 탑동초등학교에 1학년으로 입학</p>
+        <p><b>2006년</b> 집근처에 새로이 생긴 효탑초등학교로 전학</p>
+        <p><b>2007년</b> 경기도 군포시 금정동 금정초등학교로 전학</p>
+        <p><b>2008년</b> 경기도 수원시 권선구 탑동초등학교로 전학</p>
+        <p><b>2010년</b> 경기도 군포시 금정동 금정초등학교로 전학</p>
+        <p><b>2011년</b> 경기도 군포시 금정동 금정중학교로 입학</p>
+        <p><b>2013년</b> 경기도 군포시 금정동 군포고등학교로 입학</p>
+        <p><b>2016년</b> 재수</p>
+        <p><b>2017년</b> 폴리텍대학교 스마트소프트웨어학과 입학</p>
+        <p><b>2017년</b> 11월 13일 ~ 2019년도 7월20일 3사단 입대</p>
+        <p><b>2021년</b> 폴리텍대학교 졸업</p>
+        <p><b>2021년 2월~ 2021 11월</b>일본 워킹홀리데이</p>
+        <p><b>2022년 3월</b>선문대학교 AI소프트웨어학과 편입</p>
+        <p><b>2022년 현재진행중</b>
+    </section>
+
+    <section id="section">
+        <center><p><h3>전공</h3></p></center>
+        <p><h3><b>AI소프트웨어학과</b></h3></p>
+        <p><h3>학과소개</h3></p>
+        <p>
+            여러분들이 살아갈 21세기 사회는 모든 분야에서 인공지능과 데이터사이언스가 핵심적인 역할을 하는 “인공지능 및 데이터 중심사회”!
+             따라서 인공지능 소프트웨어 개발능력(프로그래밍 능력)과 데이터사이언스(딥러닝&데이터마이닝) 지식이 절대적으로 필요합니다.
+            또한, 미래사회는 글로벌 커뮤니케이션 능력과 인공지능 및 데이터사이언스 역량을 겸비하고
+             창의성과 전문성, 실무능력을 고루 갖춘 융복합 인재를 요구합니다. 특히, 국내IT기업의 해외진출 및 해외 IT기업의 국내진출이 가속화됨에 따라 글로벌IT인재에 대한 수요가 급증하고 있습니다.
+            AI소프트웨어학과에서는 국내학생들과 외국인유학생들이 함께 공부하며 인공지능 소프트웨어 및 데이터사이언스 전문가로서의 지식과 실무능력,
+             글로벌 커뮤니케이션 능력을 갖추어 일본을 포함한 해외IT기업에 진출할 수 있는 글로벌 소프트웨어 인재 양성을 목표로 하고 있습니다.</p>
+
+        <p><h3>다른 대학과의 차별성 및 강점</h3></p>
+        <p>컴퓨터는 하드웨어와 소프트웨어로 구성되어 있으며, AI소프트웨어학과에서는 소프트웨어분야를 집중적으로 공부합니다. 또한, 인공지능과 데이터사이언스 접목을 통해 지능형 소프트웨어 및 서비스 설계∙개발
+         전문가 양성을 위해 다음과 같은 특성화 교육과정을 운영합니다.전 학년에 걸쳐 시행되는 취업교육, 소프트웨어개발 프로젝트 등으로 최적화된 “AI소프트웨어교육 과정” 운영
+         인공지능 역량, 소프트웨어기초 및 개발 역량, 오픈소스 활용 역량, 데이터사이언스 역량, 외국어 역량, 산학협력 역량 등을 함양하기 위한 “선문 SIGAM인증제도” 실시
+         4학년 한 학기동안 소프트웨어/서비스개발 프로젝트(취업연계형 산학협력 프로젝트, 국내외 IT기업 인턴십 등)에만 몰입하는 “소프트웨어학기” 시행</p>
+        
+        <p><h3>AI소프트웨어학과와 함께 미래를 만들어가고 싶은 학생은 이런 사람!</h3></p>
+        <p>컴퓨터 소프트웨어 분야에 강한 흥미와 의욕을 가진 사람
+            딥러닝, 기계학습, 데이터마이닝 등, 데이터 기반의 최신기술을 학습하고자 하는 사람
+            프로그래밍 경험이 있거나, 없더라도 기초부터 성실하게 배울 자세를 갖춘 사람
+            대학 졸업 후, 해외 IT업계에 진출하여 소프트웨어전문가로 활약하고 싶은 사람
+            창의력, 커뮤니케이션 능력, 아이디어 도출과 같은 재능이 있는 사람
+            글로벌 시장에 진출하기 위한 외국어 능력을 갖추고 있거나, 입학 후 외국어 실력을 쌓기 위해 의욕적으로 학습하고자 하는 사람
+            세계를 무대로, 새로운 미래를 만들어 나가고 싶은 포부를 가진 사람</p>
+    
+    </section>
+
+    <div class="weatherTest">
+        <article class="forecast">
+            <h1>일기 예보</h1>
+            <article class="day-forecast">
+                <h2>26 September 2018</h2>
+                <p><a href="https://www.weather.go.kr/w/weather/forecast/short-term.do">9월26일 일기예보</a></p>
+            </article>
+            <article class="day-forecast">
+                <h2>27 September 2022</h2>
+                <p><a href="https://www.weather.go.kr/w/weather/forecast/short-term.do">9월27일 일기예보</a></p>
+            </article>
+            <article class="day-forecast">
+                <h2>27 September 2022</h2>
+                <p><a href="https://www.weather.go.kr/w/weather/forecast/short-term.do">9월28일 일기예보</a></p>
+            </article>
+        </article>
+    </div>
+    
+    <footer id="footer">
+        <center><b>COPYRIGHT(c) SUN MOON University. All rights reserved.</b></center>
+    </footer>
+
+</body>
+</html>
